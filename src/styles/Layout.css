@@ -1,6 +1,8 @@
 .navbar-dark .navbar-nav .nav-link {
   color: #eef2ff;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: auto;
 }
 
 .bg-dark {

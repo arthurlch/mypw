@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 //Layout
-
 const Layout = ({ children }) => {
   return (
     <Navbar className='.nav-font' bg='dark' variant='dark' expand='lg' as='ul'>
