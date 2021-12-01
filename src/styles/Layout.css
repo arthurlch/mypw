@@ -2,9 +2,21 @@
   color: #eef2ff;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .bg-dark {
-  color: #333333;
+  background-color: #0c090d !important;
+}
+
+a {
+  text-decoration: none;
+  color: #eef2ff;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(194, 194, 194);
 }

@@ -1,0 +1,50 @@
+/* Breakpoints */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+hr {
+  align-items: center;
+  margin: auto;
+  color: inherit;
+  background-color: black;
+  border: 0;
+  opacity: 0.25;
+}
+
+.title {
+  font-size: 95px;
+  margin-top: 170px;
+  margin-left: 100px;
+  color: #333333;
+}
+
+.subtitle {
+  margin-left: 100px;
+  margin-bottom: 170px;
+  color: #333333;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px 20px 20px 20px;
+}
+
+.hero-icon {
+  align-items: center;
+  margin: auto;
+  align-content: center;
+}

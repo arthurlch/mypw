@@ -1,13 +1,19 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
 import Layout from "./components/Layout";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
-  return <Layout></Layout>;
+  return (
+    <>
+      <Layout>
+        <Routes>
+          <Route index path='/' element={<Home />} />
+        </Routes>
+      </Layout>
+    </>
+  );
 }
 
 export default App;
