@@ -9,7 +9,7 @@ const Home = () => {
         <Row>
           <Col className='hero' id='hero'>
             <h1 className='title'>Hi, I'm Arthur</h1>
-            <h1 className='subtitle'>Web Developer & Maker</h1>
+            <h2 className='subtitle'>Web Developer & Maker</h2>
             <hr className='hero-separator' />
             <div className='hero-icon'>
               <FaTwitter className='icon' />
