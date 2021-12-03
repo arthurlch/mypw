@@ -1,33 +1,91 @@
 /* Breakpoints */
 
+@media (min-width: 265px) {
+  .title {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+
+  .subtitle {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 365px) {
+  .title {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  .subtitle {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 465px) {
+  .title {
+    font-size: 50px;
+    margin-left: 100px;
+  }
+  .subtitle {
+    margin-left: 100px;
+  }
+}
+
 @media (min-width: 576px) {
   .title {
     font-size: 50px;
+    margin-left: 100px;
+  }
+  .subtitle {
+    margin-left: 100px;
   }
 }
 
 @media (min-width: 768px) {
   .title {
     font-size: 50px;
+    margin-left: 100px;
+  }
+
+  .subtitle {
+    margin-left: 100px;
   }
 }
 
 @media (min-width: 992px) {
   .title {
-    font-size: 70px;
+    font-size: 60px;
+    margin-left: 100px;
+  }
+
+  .subtitle {
+    margin-left: 100px;
   }
 }
 
 @media (min-width: 1200px) {
   .title {
-    font-size: 70px;
+    font-size: 60px;
+    margin-left: 100px;
+  }
+  .subtitle {
+    margin-left: 100px;
   }
 }
 
 @media (min-width: 1400px) {
   .title {
     font-size: 90px;
+    margin-left: 100px;
   }
+  .subtitle {
+    margin-left: 100px;
+  }
+}
+
+.hero-text {
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
@@ -41,16 +99,17 @@ hr {
 
 .title {
   margin-top: 170px;
-  margin-left: 100px;
   color: #333333;
 }
 
 .subtitle {
-  margin-left: 100px;
-  margin-bottom: 170px;
   color: #333333;
+  margin-bottom: 50px;
 }
 
+.description {
+  font-weight: 300;
+}
 .icon {
   width: 40px;
   height: 40px;
@@ -58,7 +117,18 @@ hr {
 }
 
 .hero-icon {
-  align-items: center;
-  margin: auto;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.github:hover {
+  color: #6e5494;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
 }
