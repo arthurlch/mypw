@@ -9,19 +9,19 @@ const Home = () => {
         <Row>
           <Col className='hero' id='hero'>
             <div className='hero-text'>
-              <h1 className='title'>Hi, I'm Arthur</h1>
-              <h2 className='subtitle'>Web Developer & Maker</h2>
-              <p className='description'>
+              <h1 className='hero-title'>Hi, I'm Arthur</h1>
+              <h2 className='hero-subtitle'>Web Developer & Maker</h2>
+              <p className='hero-description'>
                 I'm a Developer based in Tokyo,
                 <br /> I love learning and making things. <br />
                 I'm passionate about Science, Technology, Finance.
               </p>
             </div>
             <hr className='hero-separator' />
-            <div className='hero-icon'>
-              <FaTwitter className='icon twitter animate__pulse' />
-              <FaGithub className='icon github animate__pulse' />
-              <FaLinkedin className='icon linkedin' />
+            <div className='hero-icons'>
+              <FaTwitter className='hero-icon twitter animate__pulse' />
+              <FaGithub className='hero-icon github animate__pulse' />
+              <FaLinkedin className='hero-icon linkedin' />
             </div>
           </Col>
         </Row>
