@@ -176,17 +176,3 @@ a .linkedin {
 .linkedin:hover {
   color: #0e76a8;
 }
-
-/* --------------- Project --------------- */
-
-.project {
-  background-color: #0c090d;
-  height: 600px;
-  font-family: "Fira Sans", sans-serif;
-}
-
-.projects-title {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  margin: auto;
-}

@@ -1,0 +1,13 @@
+/* --------------- Project --------------- */
+
+.project {
+  background-color: #0c090d;
+  height: 600px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.projects-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}

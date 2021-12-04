@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "../../styles/Home.css";
+import "../../styles/Home/Project.css";
 
 const Project = () => {
   return (
