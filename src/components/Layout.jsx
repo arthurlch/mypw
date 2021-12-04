@@ -18,14 +18,10 @@ const Layout = ({ children }) => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link as='li'>
-                <NavLink activeClassName='active' to='/Blog'>
-                  Blog
-                </NavLink>
+                <NavLink to='/Blog'>Blog</NavLink>
               </Nav.Link>
               <Nav.Link as='li'>
-                <NavLink activeClassName='active' to='/Contact'>
-                  Contact
-                </NavLink>
+                <NavLink to='/Contact'>Contact</NavLink>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

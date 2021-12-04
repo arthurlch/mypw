@@ -110,6 +110,10 @@
 
 /* --------------- Hero --------------- */
 
+.hero {
+  font-family: "Fira Sans", sans-serif;
+}
+
 hr {
   align-items: center;
   margin: auto;
@@ -131,9 +135,12 @@ hr {
 
 .hero-description {
   font-weight: 300;
-  margin-bottom: 140px;
+  margin-bottom: 150px;
 }
 
+a:active {
+  color: #0c090d;
+}
 .hero-icons {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -147,14 +154,25 @@ hr {
   margin: 20px 20px 20px 20px;
 }
 
+a .twitter {
+  color: #62bee2;
+}
+
 .twitter:hover {
   color: #00acee;
+}
+
+a .github {
+  color: #0c090d;
 }
 
 .github:hover {
   color: #6e5494;
 }
 
+a .linkedin {
+  color: #3e82a1;
+}
 .linkedin:hover {
   color: #0e76a8;
 }
@@ -164,4 +182,11 @@ hr {
 .project {
   background-color: #0c090d;
   height: 600px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.projects-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
 }
