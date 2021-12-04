@@ -9,6 +9,9 @@
   .subtitle {
     margin-left: 50px;
   }
+  .description {
+    margin-left: 50px;
+  }
 }
 
 @media (min-width: 365px) {
@@ -19,36 +22,48 @@
   .subtitle {
     margin-left: 50px;
   }
+  .description {
+    margin-left: 50px;
+  }
 }
 
 @media (min-width: 465px) {
   .title {
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .subtitle {
-    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .description {
+    margin-left: 50px;
   }
 }
 
 @media (min-width: 576px) {
   .title {
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .subtitle {
-    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .description {
+    margin-left: 50px;
   }
 }
 
 @media (min-width: 768px) {
   .title {
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
   .subtitle {
-    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .description {
+    margin-left: 50px;
   }
 }
 
@@ -61,6 +76,9 @@
   .subtitle {
     margin-left: 100px;
   }
+  .description {
+    margin-left: 100px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -69,6 +87,9 @@
     margin-left: 100px;
   }
   .subtitle {
+    margin-left: 100px;
+  }
+  .description {
     margin-left: 100px;
   }
 }
@@ -81,12 +102,13 @@
   .subtitle {
     margin-left: 100px;
   }
+
+  .description {
+    margin-left: 100px;
+  }
 }
 
-.hero-text {
-  justify-content: center;
-  align-items: center;
-}
+/* Hero */
 
 hr {
   align-items: center;
@@ -99,7 +121,7 @@ hr {
 
 .title {
   margin-top: 170px;
-  color: #333333;
+  color: #0c090d;
 }
 
 .subtitle {
@@ -109,6 +131,7 @@ hr {
 
 .description {
   font-weight: 300;
+  margin-bottom: 140px;
 }
 .icon {
   width: 40px;
@@ -117,6 +140,8 @@ hr {
 }
 
 .hero-icon {
+  margin-top: 40px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
 }
@@ -131,4 +156,11 @@ hr {
 
 .linkedin:hover {
   color: #0e76a8;
+}
+
+/*  Project */
+
+.project {
+  background-color: #0c090d;
+  height: 600px;
 }

@@ -19,11 +19,20 @@ const Home = () => {
             </div>
             <hr className='hero-separator' />
             <div className='hero-icon'>
-              <FaTwitter className='icon twitter' />
-              <FaGithub className='icon github' />
+              <FaTwitter className='icon twitter animate__pulse' />
+              <FaGithub className='icon github animate__pulse' />
               <FaLinkedin className='icon linkedin' />
             </div>
           </Col>
+        </Row>
+      </Container>
+
+      <Container fluid className='project'>
+        <Row>
+          <Col></Col>
+          <Col></Col>
+          <Col></Col>
+          <Col></Col>
         </Row>
       </Container>
     </>

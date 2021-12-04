@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 //Layout
 const Layout = ({ children }) => {
   return (
@@ -18,10 +18,14 @@ const Layout = ({ children }) => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link as='li'>
-                <Link to='/Blog'>Blog</Link>
+                <NavLink activeClassName='active' to='/Blog'>
+                  Blog
+                </NavLink>
               </Nav.Link>
               <Nav.Link as='li'>
-                <Link to='/Contact'>Contact</Link>
+                <NavLink activeClassName='active' to='/Contact'>
+                  Contact
+                </NavLink>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

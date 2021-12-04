@@ -18,5 +18,9 @@ a {
 }
 
 a:hover {
-  color: rgb(194, 194, 194);
+  color: #ef4943;
+}
+
+.active {
+  color: #ef4943;
 }
