@@ -1,6 +1,8 @@
 {
   "RailsBnB": {
-    "Title": "RailsBnb",
-    "Subtitle": ""
+    "CardImg": "url",
+    "CardTitle": "RailsBnb",
+    "CardSubtitle": "",
+    "CardText": "placeholder"
   }
 }
