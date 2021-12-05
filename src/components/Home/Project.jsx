@@ -1,7 +1,10 @@
-import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../../styles/Home/Project.css";
+import { GoMarkGithub, GoLinkExternal } from "react-icons/go";
+import { Railsbnb } from "../../data/Homepage/projectsData";
 
 const Project = () => {
+  // Desconstructing Object here is useless since data are available locally.
   return (
     <Container fluid className='project'>
       <Row>
@@ -9,49 +12,85 @@ const Project = () => {
           <h4 className='projects-title'>Things I do..</h4>
         </Col>
       </Row>
-      <CardGroup>
-        <Card>
-          <Card.Img variant='top' src='holder.js/100px160' />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className='text-muted'>Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant='top' src='holder.js/100px160' />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className='text-muted'>Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant='top' src='holder.js/100px160' />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className='text-muted'>Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+
+      <Container>
+        <Row>
+          <Col>
+            <Card className=' card h-100'>
+              <Card.Img variant='top' src='https://i.imgur.com/hcrPsdJ.png' />
+              <Card.Body>
+                <Card.Title className='card-title'>
+                  {Railsbnb.CardTitle}
+                </Card.Title>
+                <Card.Text className='card-description'>
+                  {Railsbnb.CardDescription}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={Railsbnb.CardGithubLink} target='_blank'>
+                  <GoMarkGithub className='project-icon' />
+                </a>
+                <a href={Railsbnb.CardLink}>
+                  <GoLinkExternal className='project-icon' />
+                </a>
+                <Button className='card-btn' size='sm' variant='outline-dark'>
+                  More
+                </Button>
+              </Card.Footer>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card className=' card h-100'>
+              <Card.Img variant='top' src='https://i.imgur.com/hcrPsdJ.png' />
+              <Card.Body>
+                <Card.Title className='card-title'>
+                  {Railsbnb.CardTitle}
+                </Card.Title>
+                <Card.Text className='card-description'>
+                  {Railsbnb.CardDescription}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={Railsbnb.CardGithubLink} target='_blank'>
+                  <GoMarkGithub className='project-icon' />
+                </a>
+                <a href={Railsbnb.CardLink}>
+                  <GoLinkExternal className='project-icon' />
+                </a>
+                <Button className='card-btn' size='sm' variant='outline-dark'>
+                  More
+                </Button>
+              </Card.Footer>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card className=' card h-100'>
+              <Card.Img variant='top' src='https://i.imgur.com/hcrPsdJ.png' />
+              <Card.Body>
+                <Card.Title className='card-title'>
+                  {Railsbnb.CardTitle}
+                </Card.Title>
+                <Card.Text className='card-description'>
+                  {Railsbnb.CardDescription}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={Railsbnb.CardGithubLink} target='_blank'>
+                  <GoMarkGithub className='project-icon' />
+                </a>
+                <a href={Railsbnb.CardLink}>
+                  <GoLinkExternal className='project-icon' />
+                </a>
+                <Button className='card-btn' size='sm' variant='outline-dark'>
+                  More
+                </Button>
+              </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 };

@@ -1,3 +1,72 @@
+/* --------------- Hero --------------- */
+
+.hero {
+  font-family: "Fira Sans", sans-serif;
+}
+
+hr {
+  align-items: center;
+  margin: auto;
+  color: inherit;
+  background-color: black;
+  border: 0;
+  opacity: 0.25;
+}
+
+.hero-title {
+  margin-top: 170px;
+  color: #0c090d;
+}
+
+.hero-subtitle {
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+.hero-description {
+  font-weight: 300;
+  margin-bottom: 150px;
+}
+
+a:active {
+  color: #0c090d;
+}
+.hero-icons {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px 20px 20px 20px;
+}
+
+a .twitter {
+  color: #62bee2;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+a .github {
+  color: #0c090d;
+}
+
+.github:hover {
+  color: #6e5494;
+}
+
+a .linkedin {
+  color: #3e82a1;
+}
+.linkedin:hover {
+  color: #0e76a8;
+}
+
 /* --------------- Breakpoints --------------- */
 
 @media (min-width: 265px) {
@@ -106,73 +175,4 @@
   .hero-description {
     margin-left: 100px;
   }
-}
-
-/* --------------- Hero --------------- */
-
-.hero {
-  font-family: "Fira Sans", sans-serif;
-}
-
-hr {
-  align-items: center;
-  margin: auto;
-  color: inherit;
-  background-color: black;
-  border: 0;
-  opacity: 0.25;
-}
-
-.hero-title {
-  margin-top: 170px;
-  color: #0c090d;
-}
-
-.hero-subtitle {
-  color: #333333;
-  margin-bottom: 50px;
-}
-
-.hero-description {
-  font-weight: 300;
-  margin-bottom: 150px;
-}
-
-a:active {
-  color: #0c090d;
-}
-.hero-icons {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-icon {
-  width: 40px;
-  height: 40px;
-  margin: 20px 20px 20px 20px;
-}
-
-a .twitter {
-  color: #62bee2;
-}
-
-.twitter:hover {
-  color: #00acee;
-}
-
-a .github {
-  color: #0c090d;
-}
-
-.github:hover {
-  color: #6e5494;
-}
-
-a .linkedin {
-  color: #3e82a1;
-}
-.linkedin:hover {
-  color: #0e76a8;
 }
