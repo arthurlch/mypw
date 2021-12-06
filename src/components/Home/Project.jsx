@@ -2,7 +2,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../../styles/Home/Project.css";
 import { GoMarkGithub, GoLinkExternal } from "react-icons/go";
 import { Railsbnb } from "../../data/Homepage/projectsData";
-
+// https://placeholder.com/
 const Project = () => {
   // Desconstructing Object here is useless since data are available locally.
   return (
