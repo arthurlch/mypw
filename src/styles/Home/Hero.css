@@ -1,26 +1,23 @@
 /* --------------- Hero --------------- */
 
+.hero-container {
+  border-bottom: 1px solid #eaeaea;
+}
+
 .hero {
   font-family: "Fira Sans", sans-serif;
 }
 
-hr {
-  align-items: center;
-  margin: auto;
-  color: inherit;
-  background-color: black;
-  border: 0;
-  opacity: 0.25;
-}
-
 .hero-title {
-  margin-top: 170px;
-  color: #0c090d;
+  margin-top: 180px;
+  color: #fca311;
+  font-weight: 400;
 }
 
 .hero-subtitle {
-  color: #333333;
+  color: #0c090d;
   margin-bottom: 50px;
+  font-weight: 400;
 }
 
 .hero-description {

@@ -16,8 +16,7 @@ const Project = () => {
       <Container>
         <Row>
           <Col md={4} className='card-col'>
-            <Card className=' card h-100'>
-              <Card.Img variant='top' src={Railsbnb.CardImg} />
+            <Card className=' card h-60'>
               <Card.Body>
                 <Card.Title className='card-title'>
                   {Railsbnb.CardTitle}
@@ -39,7 +38,6 @@ const Project = () => {
 
           <Col md={4} className='card-col'>
             <Card className=' card h-100'>
-              <Card.Img variant='top' src={PyMaze.CardImg} />
               <Card.Body>
                 <Card.Title className='card-title'>
                   {PyMaze.CardTitle}
@@ -58,7 +56,6 @@ const Project = () => {
 
           <Col md={4} className='card-col'>
             <Card className=' card h-100'>
-              <Card.Img variant='top' src={RubyCRUD.CardImg} />
               <Card.Body>
                 <Card.Title className='card-title'>
                   {RubyCRUD.CardTitle}

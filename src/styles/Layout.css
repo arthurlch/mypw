@@ -1,26 +1,19 @@
-.navbar-dark .navbar-nav .nav-link {
-  color: #eef2ff;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-}
-
-.bg-dark {
-  background-color: #0c090d !important;
+.bg-light {
+  background-color: white !important;
 }
 
 a {
-  text-decoration: none;
-  color: #eef2ff;
-  font-weight: 400;
+  color: #fca311;
+  font-weight: 300;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #ef4943;
+  color: #14213d;
 }
 
 .active {
-  color: #ef4943;
+  color: #14213d;
 }

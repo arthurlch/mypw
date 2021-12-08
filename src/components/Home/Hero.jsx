@@ -4,7 +4,7 @@ import "../../styles/Home/Hero.css";
 
 const Hero = () => {
   return (
-    <Container>
+    <Container className='hero-container' fluid>
       <Row>
         <Col className='hero' id='hero'>
           <div className='hero-text'>
@@ -16,7 +16,6 @@ const Hero = () => {
               I'm passionate about Science, Technology, Finance.
             </p>
           </div>
-          <hr className='hero-separator' />
           <div className='hero-icons'>
             <a href='https://twitter.com/arthurlch'>
               <FaTwitter className='hero-icon twitter animate__pulse' />

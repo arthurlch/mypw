@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 //Layout
 const Layout = ({ children }) => {
   return (
     <>
       <Navbar
         className='.nav-font'
-        bg='dark'
-        variant='dark'
+        bg='light'
+        variant='light'
         expand='lg'
         id='navbar'>
         <Container>
