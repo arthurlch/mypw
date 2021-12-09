@@ -9,7 +9,7 @@ const Project = () => {
     <Container fluid className='project'>
       <Row>
         <Col className='d-flex my-5 '>
-          <h2 className='projects-title'>Some of my latest work..</h2>
+          <h2 className='projects-title'>Some of my latest work:</h2>
         </Col>
       </Row>
 

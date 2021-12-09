@@ -1,8 +1,10 @@
-.blog {
-  border-bottom: 1px solid #eaeaea;
+form {
+  color: #0c090d;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
-.blog-heading {
+.contact-headline {
   color: #0c090d;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
@@ -12,21 +14,6 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
-}
-
-.article {
-  color: #0c090d;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-}
-
-.article a {
-  font-size: 24px;
-}
-
-.btn {
-  margin-bottom: 90px;
-  border: none;
 }
 
 .btn:hover {
