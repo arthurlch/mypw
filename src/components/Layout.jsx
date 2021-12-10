@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -8,12 +8,7 @@ import { SiVercel, SiReact } from "react-icons/si";
 const Layout = ({ children }) => {
   return (
     <>
-      <Navbar
-        className='.nav-font'
-        bg='light'
-        variant='light'
-        expand='lg'
-        id='navbar'>
+      <Navbar className='navbar' bg='light' variant='light' expand='lg'>
         <Container>
           <Navbar.Brand href='/'>Arthur Lachat</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -37,7 +32,7 @@ const Layout = ({ children }) => {
                   to='blog'
                   spy={true}
                   smooth={true}
-                  offset={-90}
+                  offset={-60}
                   duration={500}>
                   Blog
                 </Link>
@@ -49,7 +44,7 @@ const Layout = ({ children }) => {
                   to='contact'
                   spy={true}
                   smooth={true}
-                  offset={-90}
+                  offset={-50}
                   duration={500}>
                   Contact
                 </Link>
@@ -69,7 +64,6 @@ const Layout = ({ children }) => {
           <span>
             <SiVercel className=' icon vercel-icon' />
           </span>
-          <br />
         </div>
       </footer>
     </>

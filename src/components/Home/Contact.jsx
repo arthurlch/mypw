@@ -5,9 +5,9 @@ import Button from "@restart/ui/esm/Button";
 const Contact = () => {
   const data = "https://formsubmit.co/a4cd2264c6b501c3f41c5f3d1e2e0518";
   return (
-    <Container>
+    <Container className='contact'>
       <Row>
-        <Col md={3} className='contact' />
+        <Col md={3} />
         <Col>
           <h3 className='contact-headline'>Get in touch:</h3>
           <Form action={data} method='POST'>
