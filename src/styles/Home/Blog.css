@@ -4,7 +4,6 @@
 
 .blog-heading {
   color: #0c090d;
-  font-size: 30px;
   font-family: "Roboto", sans-serif;
   margin: auto;
   font-weight: 300;
@@ -44,10 +43,10 @@
     margin-left: 10px;
   }
   .article a {
-    font-size: 20px;
+    font-size: 30px;
   }
   .blog-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
@@ -56,7 +55,7 @@
     margin-left: 10px;
   }
   .blog-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
   .article a {
     font-size: 20px;
@@ -68,7 +67,7 @@
     margin-left: 10px;
   }
   .blog-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
   .article a {
     font-size: 20px;
@@ -80,7 +79,7 @@
     margin-left: 10px;
   }
   .blog-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
   .article a {
     font-size: 20px;
@@ -92,7 +91,7 @@
     margin-left: 40px;
   }
   .blog-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
   .article a {
     font-size: 20px;

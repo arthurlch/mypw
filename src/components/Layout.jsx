@@ -30,6 +30,7 @@ const Layout = ({ children }) => {
                   Projects
                 </Link>
               </Nav.Link>
+
               <Nav.Link as='li'>
                 <Link
                   activeClass='active'
@@ -41,6 +42,7 @@ const Layout = ({ children }) => {
                   Blog
                 </Link>
               </Nav.Link>
+
               <Nav.Link as='li'>
                 <Link
                   activeClass='active'
