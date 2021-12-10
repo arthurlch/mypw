@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { SiVercel, SiReact } from "react-icons/si";
 
 //Layout
 const Layout = ({ children }) => {
@@ -46,6 +46,19 @@ const Layout = ({ children }) => {
         </Container>
       </Navbar>
       {children}
+      <footer className=' footer text-center text-lg-start'>
+        <div className='text-center p-3'>
+          Made with
+          <span>
+            <SiReact className=' icon react-icon' />
+          </span>
+          and hosted on
+          <span>
+            <SiVercel className=' icon vercel-icon' />
+          </span>
+          <br />
+        </div>
+      </footer>
     </>
   );
 };
