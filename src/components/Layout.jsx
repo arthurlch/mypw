@@ -22,6 +22,17 @@ const Layout = ({ children }) => {
               <Nav.Link as='li'>
                 <Link
                   activeClass='active'
+                  to='project'
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}>
+                  Projects
+                </Link>
+              </Nav.Link>
+              <Nav.Link as='li'>
+                <Link
+                  activeClass='active'
                   to='blog'
                   spy={true}
                   smooth={true}
