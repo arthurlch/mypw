@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <Container>
       <Row>
+        <Col md={3} />
         <Col>
           <h3 className='contact-headline'>Get in touch:</h3>
           <Form action={data} method='POST'>
@@ -30,6 +31,7 @@ const Contact = () => {
             </Button>
           </Form>
         </Col>
+        <Col md={3} />
       </Row>
     </Container>
   );
