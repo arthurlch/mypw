@@ -69,27 +69,27 @@ a .linkedin {
 @media (min-width: 265px) {
   .hero-title {
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .hero-subtitle {
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .hero-description {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 }
 
 @media (min-width: 365px) {
   .hero-title {
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .hero-subtitle {
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .hero-description {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 }
 
