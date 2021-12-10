@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <Container>
       <Row>
-        <Col md={3} />
+        <Col md={3} className='contact' />
         <Col>
           <h3 className='contact-headline'>Get in touch:</h3>
           <Form action={data} method='POST'>

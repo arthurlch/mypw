@@ -4,6 +4,10 @@ form {
   font-family: "Roboto", sans-serif;
 }
 
+.form-control {
+  border-radius: 25px;
+}
+
 .contact-headline {
   color: #0c090d;
   font-size: 30px;

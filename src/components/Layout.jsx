@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Layout.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 //Layout
 const Layout = ({ children }) => {
   return (
@@ -18,10 +20,26 @@ const Layout = ({ children }) => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link as='li'>
-                <NavLink to='/Blog'>Blog</NavLink>
+                <Link
+                  activeClass='active'
+                  to='blog'
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}>
+                  Blog
+                </Link>
               </Nav.Link>
               <Nav.Link as='li'>
-                <NavLink to='/Contact'>Contact</NavLink>
+                <Link
+                  activeClass='active'
+                  to='contact'
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}>
+                  Contact
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
