@@ -18,6 +18,7 @@
   color: #0c090d;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  margin-left: 85px;
 }
 
 .article a {
@@ -25,11 +26,98 @@
 }
 
 .btn {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border: none;
+  margin-left: 85px;
 }
 
 .btn:hover {
   color: white;
   background-color: #14213d;
+}
+
+/* --------------- Breakpoints --------------- */
+
+@media (min-width: 265px) {
+  .article {
+    margin-left: 10px;
+  }
+  .article a {
+    font-size: 20px;
+  }
+  .blog-heading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 365px) {
+  .article {
+    margin-left: 10px;
+  }
+  .blog-heading {
+    font-size: 20px;
+  }
+  .article a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .article {
+    margin-left: 10px;
+  }
+  .blog-heading {
+    font-size: 20px;
+  }
+  .article a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article {
+    margin-left: 10px;
+  }
+  .blog-heading {
+    font-size: 20px;
+  }
+  .article a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .article {
+    margin-left: 40px;
+  }
+  .blog-heading {
+    font-size: 20px;
+  }
+  .article a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .article {
+    margin-left: 85px;
+  }
+  .blog-heading {
+    font-size: 30px;
+  }
+  .article a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .article {
+    margin-left: 85px;
+  }
+  .blog-heading {
+    font-size: 30px;
+  }
+  .article a {
+    font-size: 24px;
+  }
 }

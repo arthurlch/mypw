@@ -18,7 +18,7 @@ const Blog = () => {
   };
 
   return (
-    <Container className='blog'>
+    <Container fluid className='blog'>
       <Row>
         <Col>
           <h3 className='blog-heading'>My writings:</h3>

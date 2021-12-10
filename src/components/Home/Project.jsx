@@ -72,16 +72,7 @@ const Project = () => {
             </Card>
           </Col>
         </Row>
-        <Row>
-          <Col className='project-more'>
-            <Button className='project-btn'>
-              Check more
-              <span>
-                <GoArrowRight className='project-more-arrow' />
-              </span>
-            </Button>
-          </Col>
-        </Row>
+        <br className='bottom-spacing' />
       </Container>
     </Container>
   );

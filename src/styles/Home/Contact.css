@@ -16,6 +16,12 @@ form {
   justify-content: center;
 }
 
+.btn {
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
 .btn:hover {
   color: white;
   background-color: #14213d;

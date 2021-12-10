@@ -71,29 +71,10 @@
   border: 2px solid #333333;
 }
 
-.project-more {
-  display: flex;
-  justify-content: center;
-  margin: 50px 0 50px 0;
+.bottom-spacing {
+  margin-top: 40px;
+  margin-bottom: 90px;
 }
-
-.project-btn {
-  background-color: #fca311;
-  color: white;
-  border: none;
-  margin-bottom: 20px;
-}
-
-.project-btn:hover {
-  background-color: #e5e5e5;
-  color: black;
-  border: none;
-}
-
-.project-more-arrow {
-  margin-left: 5px;
-}
-
 /* --------------- Breakpoints --------------- */
 
 @media (min-width: 265px) {
