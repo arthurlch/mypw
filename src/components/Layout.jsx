@@ -10,24 +10,24 @@ const Layout = ({ children }) => {
     <>
       <Navbar className='navbar' bg='dark' variant='dark' expand='lg'>
         <Container>
-          <Navbar.Brand href='/'>Arthur Lachat</Navbar.Brand>
+          <Navbar.Brand href='/'>A.L</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link as='li'>
-                <Link to='/'>Home</Link>
+                <Link to='/'>HOME</Link>
               </Nav.Link>
               <Nav.Link as='li'>
-                <Link to='about'>About</Link>
+                <Link to='about'>ABOUT</Link>
               </Nav.Link>
               <Nav.Link as='li'>
-                <Link to='project'>Projects</Link>
+                <Link to='project'>PROJECT</Link>
               </Nav.Link>
               <Nav.Link as='li'>
-                <Link to='blog'>Blog</Link>
+                <Link to='blog'>BLOG</Link>
               </Nav.Link>
               <Nav.Link as='li'>
-                <Link to='contact'>Contact</Link>
+                <Link to='contact'>CONTACT</Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -12,7 +12,7 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route index path='/' component={Home} />
+          <Route index path='/' element={<Home />} />
           <Route path='about' component={About} />
           <Route path='projects' component={Project} />
           <Route path='contact' component={Contact} />

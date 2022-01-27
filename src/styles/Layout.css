@@ -1,9 +1,12 @@
 .navbar {
   height: 60px;
-  position: sticky;
+  position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4) !important;
 }
 
 .bg-light {
@@ -11,15 +14,15 @@
 }
 
 a {
-  color: #fca311;
+  color: #1148fc;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: #14213d;
+  color: #e61e5a;
 }
 
 .active {
@@ -29,7 +32,7 @@ a:hover {
 footer {
   background-color: #f4f4f4;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 15px 0 15px 0;
 }
 
