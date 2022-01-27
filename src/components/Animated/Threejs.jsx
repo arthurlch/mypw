@@ -22,7 +22,7 @@ const ThreeJs = () => {
     const scene = new THREE.Scene();
 
     // Fog
-    const fog = new THREE.Fog('#000000', 1, 2.5);
+    const fog = new THREE.Fog('#2725FA', 1, 2.5);
 
     scene.fog = fog;
 
@@ -73,7 +73,7 @@ const ThreeJs = () => {
     scene.add(ambientLight);
 
     const spotlight = new THREE.SpotLight(
-      '#d53c3d',
+      '#E0017D',
       40,
       25,
       Math.PI * 0.1,
