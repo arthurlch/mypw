@@ -1,6 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import "../../styles/Home/Hero.css";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import './../../styles/Components/Hero.css';
 
 const Hero = () => {
   return (
