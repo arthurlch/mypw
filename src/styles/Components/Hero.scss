@@ -1,67 +1,101 @@
-/* --------------- Hero --------------- */
+// btn
 
-.hero-container {
-  border-bottom: 1px solid #eaeaea;
+$color: #0059ff;
+
+.btn {
+  display: inline-block;
+  margin-top: 160px;
+  padding: 0.5rem 0.9rem;
+  border-radius: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.06rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-family: 'fira sans';
+  border: none;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0059ff;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #e61e5ac2;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
-.hero {
-  font-family: "Fira Sans", sans-serif;
+.btn-wrapper {
+  margin-top: 75px;
 }
 
-.hero-title {
-  margin-top: 180px;
-  color: #fca311;
-  font-weight: 400;
+.hero-wrapper {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: black;
 }
 
-.hero-subtitle {
-  color: #0c090d;
-  margin-bottom: 50px;
-  font-weight: 400;
+.row-header {
+  z-index: 1;
+  width: 100%;
+  position: relative;
 }
 
-.hero-description {
+.row-header h1 {
+  margin-top: 500px;
+}
+
+.header-animation {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.header {
+  font-size: 160px;
   font-weight: 300;
-  margin-bottom: 150px;
+  color: rgba(255, 255, 255, 0.842);
 }
 
-a:active {
-  color: #0c090d;
-}
-.hero-icons {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
+.header-btn-icon {
+  margin-left: 5px;
 }
 
-.hero-icon {
-  width: 40px;
-  height: 40px;
-  margin: 20px 20px 20px 20px;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #e61e5a;
+  background: #2725fa;
 }
 
-a .twitter {
-  color: #62bee2;
-}
-
-.twitter:hover {
-  color: #00acee;
-}
-
-a .github {
-  color: #0c090d;
-}
-
-.github:hover {
-  color: #6e5494;
-}
-
-a .linkedin {
-  color: #3e82a1;
-}
-.linkedin:hover {
-  color: #0e76a8;
+::selection {
+  color: #e61e5a;
+  background: #2725fa;
 }
 
 /* --------------- Breakpoints --------------- */

@@ -1,24 +1,21 @@
 .navbar {
   height: 60px;
-  position: fixed;
   width: 100%;
-  z-index: 0;
+  position: absolute;
+  z-index: 2;
   top: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.4) !important;
 }
 
-.bg-light {
-  background-color: white !important;
-}
-
 a {
-  color: #1148fc;
-  font-weight: 300;
+  color: #0059ff;
+  font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
   cursor: pointer;
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:hover {
