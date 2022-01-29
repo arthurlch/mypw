@@ -26,7 +26,7 @@
 .header {
   font-size: 160px;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.842);
+  color: rgba(255, 255, 255, 0.883);
 }
 
 // btn
@@ -67,7 +67,7 @@ $color: #0059ff;
     width: 0%;
     height: 100%;
     background-color: #e61e5ad0;
-    transition: all 0.8s;
+    transition: all 0.6s;
     border-radius: 10rem;
     z-index: -1;
   }
@@ -81,6 +81,19 @@ $color: #0059ff;
 
 .btn-wrapper {
   margin-top: 75px;
+}
+
+// btn link is helpful to override the default a tag element styling
+.btn-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.06rem;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #fff;
 }
 
 ::-moz-selection {

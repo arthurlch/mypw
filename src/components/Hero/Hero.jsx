@@ -17,7 +17,9 @@ const Hero = () => {
               </h1>
               <div className='btn-wrapper'>
                 <Button className='btn'>
-                  <a>Let's imagine together</a>
+                  <a href='/about' className='btn-link'>
+                    Let's imagine together
+                  </a>
                 </Button>
               </div>
             </div>
