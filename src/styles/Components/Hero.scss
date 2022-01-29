@@ -101,109 +101,73 @@ $color: #0059ff;
 /* --------------- Breakpoints --------------- */
 
 @media (min-width: 265px) {
-  .hero-title {
-    font-size: 50px;
-    margin-left: 20px;
+  .btn {
+    padding: 0.2rem 0.5rem;
   }
-
-  .hero-subtitle {
-    margin-left: 20px;
-  }
-  .hero-description {
-    margin-left: 20px;
+  .header {
+    font-size: 90px;
   }
 }
 
 @media (min-width: 365px) {
-  .hero-title {
-    font-size: 50px;
-    margin-left: 20px;
+  .btn {
+    padding: 0.2rem 0.5rem;
   }
-  .hero-subtitle {
-    margin-left: 20px;
-  }
-  .hero-description {
-    margin-left: 20px;
+  .header {
+    font-size: 90px;
   }
 }
 
 @media (min-width: 465px) {
-  .hero-title {
-    font-size: 50px;
-    margin-left: 50px;
+  .btn {
+    padding: 0.3rem 0.6rem;
   }
-  .hero-subtitle {
-    margin-left: 50px;
-  }
-  .hero-description {
-    margin-left: 50px;
+  .header {
+    font-size: 120px;
   }
 }
 
 @media (min-width: 576px) {
-  .hero-title {
-    font-size: 50px;
-    margin-left: 50px;
+  .btn {
+    padding: 0.5rem 0.8rem;
   }
-  .hero-subtitle {
-    margin-left: 50px;
-  }
-  .hero-description {
-    margin-left: 50px;
+  .header {
+    font-size: 130px;
   }
 }
 
 @media (min-width: 768px) {
-  .hero-title {
-    font-size: 50px;
-    margin-left: 50px;
+  .btn {
+    padding: 0.5rem 0.8rem;
   }
-
-  .hero-subtitle {
-    margin-left: 50px;
-  }
-  .hero-description {
-    margin-left: 50px;
+  .header {
+    font-size: 160px;
   }
 }
 
 @media (min-width: 992px) {
-  .hero-title {
-    font-size: 60px;
-    margin-left: 100px;
+  .btn {
+    padding: 0.5rem 0.8rem;
   }
-
-  .hero-subtitle {
-    margin-left: 100px;
-  }
-  .hero-description {
-    margin-left: 100px;
+  .header {
+    font-size: 160px;
   }
 }
 
 @media (min-width: 1200px) {
-  .hero-title {
-    font-size: 60px;
-    margin-left: 100px;
+  .btn {
+    padding: 0.6rem 0.9rem;
   }
-  .hero-subtitle {
-    margin-left: 100px;
-  }
-  .hero-description {
-    margin-left: 100px;
+  .header {
+    font-size: 160px;
   }
 }
 
 @media (min-width: 1400px) {
-  .hero-title {
-    font-size: 90px;
-    margin-left: 100px;
+  .btn {
+    padding: 0.6rem 0.9rem;
   }
-  .hero-subtitle {
-    margin-left: 100px;
-  }
-
-  .hero-description {
-    margin-left: 100px;
+  .header {
+    font-size: 160px;
   }
 }
