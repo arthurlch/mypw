@@ -1,9 +1,9 @@
-import "../../styles/Home/Contact.css";
-import { Container, Row, Col, Form } from "react-bootstrap";
-import Button from "@restart/ui/esm/Button";
+import './../../styles/Components/Contact.css';
+import { Container, Row, Col, Form } from 'react-bootstrap';
+import Button from '@restart/ui/esm/Button';
 
-const Contact = () => {
-  const data = "https://formsubmit.co/a4cd2264c6b501c3f41c5f3d1e2e0518";
+export const Contact = () => {
+  const data = 'https://formsubmit.co/a4cd2264c6b501c3f41c5f3d1e2e0518';
   return (
     <Container className='contact'>
       <Row>
@@ -47,5 +47,3 @@ const Contact = () => {
     </Container>
   );
 };
-
-export default Contact;

@@ -1,0 +1,103 @@
+.about-container {
+  background-color: black !important;
+  padding-top: 130px;
+}
+
+.about-wrapper-text {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-wrapper-5 {
+  color: red;
+  font-size: 20px;
+}
+
+.about-btn {
+  margin-top: 30px;
+  background-color: black;
+  text-align: left;
+}
+
+.about-request {
+  color: rgba(255, 0, 0, 0.527);
+}
+.about-request-wrapper {
+  margin-bottom: 30px;
+}
+/* --------------- Breakpoints --------------- */
+
+@media (min-width: 165px) {
+  .about-wrapper-text {
+    margin-left: 0;
+  }
+
+  .about-request-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 265px) {
+  .about-wrapper-text {
+    margin-left: 0;
+  }
+  .about-request-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 365px) {
+  .about-wrapper-text {
+    margin-left: 0;
+  }
+  .about-request-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-wrapper-text {
+    margin-left: 40px;
+  }
+  .about-request-wrapper {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-wrapper-text {
+    margin-left: 80px;
+  }
+  .about-request-wrapper {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-wrapper-text {
+    margin-left: 180px;
+  }
+  .about-request-wrapper {
+    margin-left: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-wrapper-text {
+    margin-left: 180px;
+  }
+  .about-request-wrapper {
+    margin-left: 180px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-wrapper-text {
+    margin-left: 180px;
+  }
+
+  .about-request-wrapper {
+    margin-left: 180px;
+  }
+}

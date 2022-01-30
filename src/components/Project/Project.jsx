@@ -1,9 +1,9 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import "../../styles/Home/Project.css";
-import { GoMarkGithub, GoLinkExternal, GoArrowRight } from "react-icons/go";
-import { Railsbnb, PyMaze, RubyCRUD } from "../../data/Homepage/projectsData";
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import './../../styles/Components/Project.css';
+import { GoMarkGithub, GoLinkExternal, GoArrowRight } from 'react-icons/go';
+import { Railsbnb, PyMaze, RubyCRUD } from '../../data/Homepage/projectsData';
 
-const Project = () => {
+export const Project = () => {
   // Desconstructing Object here is useless since data are available locally.
   return (
     <Container fluid className='project'>
@@ -77,5 +77,3 @@ const Project = () => {
     </Container>
   );
 };
-
-export default Project;
