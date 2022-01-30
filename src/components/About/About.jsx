@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
+import '../../styles/Components/About.css';
 
 export const About = () => {
   return (
     <>
-      <Container className='about-container'>
+      <Container fluid className='about-container'>
         <Row className='about-row'>
           <Col md={6} className='about-col'>
             <div className='about-wrapper'>
@@ -32,7 +33,7 @@ export const About = () => {
                     typewriter
                       .pauseFor(2500)
                       .typeString(
-                        "My name is Arthur, I'm an engineer/maker/developer."
+                        "My name is Arthur, I'm an Engineer/Philomath/Developer."
                       )
                       .start();
                   }}
@@ -125,7 +126,7 @@ export const About = () => {
                     typewriter
                       .pauseFor(6000)
                       .typeString(
-                        'I am a very temperate person. I value: Knowledge, Critical Thinking, Curiosity'
+                        'I am a very temperate person. I value: Knowledge, Critical Thinking, Curiosity.'
                       )
                       .start();
                   }}
@@ -142,12 +143,16 @@ export const About = () => {
                     typewriter
                       .pauseFor(10000)
                       .typeString(
-                        'Access Denied: For more information send a request'
+                        'Access Denied: For more data, send a request'
                       )
                       .start();
                   }}
                 />
-                <Button className='about-btn'>Request</Button>
+              </div>
+              <div className='about-request-wrapper'>
+                <a className='about-request' href='contact'>
+                  Request data
+                </a>
               </div>
             </div>
           </Col>
