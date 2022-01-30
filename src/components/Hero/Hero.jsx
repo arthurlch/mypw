@@ -16,7 +16,7 @@ const Hero = () => {
                 The true sign of intelligence is not knowledge but imagination
               </h1>
               <div className='btn-wrapper'>
-                <Button className='btn'>
+                <Button className='button'>
                   <a href='/about' className='btn-link'>
                     Let's imagine together
                   </a>
