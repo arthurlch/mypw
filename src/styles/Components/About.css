@@ -1,6 +1,7 @@
 .about-container {
   background-color: black !important;
   padding-top: 130px;
+  min-height: 750px;
 }
 
 .about-wrapper-text {

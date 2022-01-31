@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
-import "../../styles/Home/Blog.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React, { useState, useEffect } from 'react';
+import '../../styles/Components/Blog.css';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
-const Blog = () => {
+export const Blog = () => {
   // Set state for loading more
   const [articles, setArticles] = useState([]);
   const [visible, setVisible] = useState(3);
   // fetch dev.to API
   useEffect(() => {
-    fetch("https://dev.to/api/articles?username=arthurdav")
+    fetch('https://dev.to/api/articles?username=arthurdav')
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);
@@ -18,10 +18,9 @@ const Blog = () => {
   };
 
   return (
-    <Container fluid className='blog'>
+    <Container fluid className='blog-container'>
       <Row>
         <Col>
-          <h3 className='blog-heading'>My writings:</h3>
           <div className='articles'>
             {articles.slice(0, visible).map((article) => {
               return (
@@ -40,12 +39,12 @@ const Blog = () => {
             })}
           </div>
         </Col>
+        <Col className='blog-btn' md={12}>
+          <Button className=' btn button' onClick={showMoreItems}>
+            Load more
+          </Button>
+        </Col>
       </Row>
-      <Button className='btn' variant='outline-dark' onClick={showMoreItems}>
-        Load more
-      </Button>
     </Container>
   );
 };
-
-export default Blog;

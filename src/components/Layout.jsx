@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       </Navbar>
       {children}
       <footer className=' footer text-center text-lg-start'>
-        <div className='text-center p-3'>
+        <div className=' footer-text text-center p-3'>
           Made with
           <span>
             <SiReact className=' icon react-icon' />
