@@ -18,6 +18,14 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/project' element={<Project />} />
           <Route path='/contact' element={<Contact />} />
+          <Route
+            path='*'
+            element={
+              <div className='error' style={{ padding: '1rem' }}>
+                <p className='error-not-found'>There's nothing here :( </p>
+              </div>
+            }
+          />
         </Routes>
       </Layout>
     </>

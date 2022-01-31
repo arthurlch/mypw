@@ -1,0 +1,12 @@
+.error {
+  min-height: 740px;
+  background-color: black;
+  text-align: center;
+}
+
+.error-not-found {
+  padding-top: 300px;
+  font-weight: 600;
+  font-size: 35px;
+  color: white;
+}
