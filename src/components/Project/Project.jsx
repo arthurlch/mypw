@@ -35,6 +35,9 @@ export const Project = () => {
                 <a href={AlgorithmVisualizer.CardGithubLink} target='_blank'>
                   <GoMarkGithub className='project-icon' />
                 </a>
+                <a href={AlgorithmVisualizer.CardLink}>
+                  <GoLinkExternal className='project-icon' />
+                </a>
               </Card.Footer>
             </Card>
           </Col>

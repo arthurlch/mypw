@@ -3,6 +3,7 @@ export const AlgorithmVisualizer = {
   CardDescription:
     'Algorithm visualizer build with React. Visualize A*Path algorithm. Display shortest path with CSS animation.',
   CardGithubLink: 'https://github.com/arthurlch/AlgorithmVisualizer',
+  CardLink: '  https://reactalgovizu.vercel.app/',
 };
 
 export const nitii = {
