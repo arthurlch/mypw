@@ -1,5 +1,4 @@
-import { Card, CardGroup } from "react-bootstrap";
-
+import { Card, CardGroup } from 'react-bootstrap';
 const ProjectCards = () => {
   return (
     <CardGroup>
@@ -22,7 +21,7 @@ const ProjectCards = () => {
           <Card.Title>Card title</Card.Title>
           <Card.Text>
             This card has supporting text below as a natural lead-in to
-            additional content.{" "}
+            additional content.{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
