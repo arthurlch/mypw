@@ -11,15 +11,17 @@ import { Blog } from './components/Blog/Blog';
 function App() {
   return (
     <>
-      <Layout>
-        <Routes>
-          <Route index path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/blog' element={<Blog />} />
-          <Route path='/project' element={<Project />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </Layout>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route index path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/project' element={<Project />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
     </>
   );
 }
