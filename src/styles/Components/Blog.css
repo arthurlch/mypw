@@ -29,18 +29,6 @@
   font-size: 24px;
 }
 
-.btn {
-  margin-bottom: 50px;
-  border: none;
-  margin-left: 85px;
-  border-radius: 25px;
-}
-
-.btn:hover {
-  color: white;
-  background-color: #14213d;
-}
-
 /* --------------- Breakpoints --------------- */
 
 @media (min-width: 265px) {

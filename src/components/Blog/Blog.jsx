@@ -39,12 +39,8 @@ export const Blog = () => {
             })}
           </div>
         </Col>
-        <Col md={12}>
-          {' '}
-          <Button
-            className='button'
-            variant='outline-dark'
-            onClick={showMoreItems}>
+        <Col className='blog-btn' md={12}>
+          <Button className=' btn button' onClick={showMoreItems}>
             Load more
           </Button>
         </Col>
