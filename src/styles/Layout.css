@@ -38,7 +38,7 @@ footer {
   align-content: center;
   text-align: center;
   justify-content: center;
-  border-top: rgba(255, 0, 0, 0.548) solid 1px;
+  border-top: #0059ff solid 1px;
 }
 
 .footer-text {
