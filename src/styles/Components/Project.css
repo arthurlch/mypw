@@ -3,18 +3,18 @@
 /* .card-btn is a future implementation */
 
 .project {
-  background-color: white;
-  height: auto;
-  font-family: "Fira Sans", sans-serif;
-  border-bottom: 1px solid #eaeaea;
+  background-color: black;
+  min-height: 650px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .projects-title {
-  color: #000000;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  color: #eaeaea;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
   margin: auto;
-  font-weight: 300;
+  padding-top: 50px;
+  font-weight: 500;
 }
 
 .card-col {
@@ -22,9 +22,9 @@
 }
 
 .card {
-  background-color: #14213d;
+  background-color: #0049d1;
   border-radius: 25px;
-  border: solid 2px #14213d;
+  border: solid 2px #0049d1;
   font-weight: 300;
 }
 
@@ -33,9 +33,10 @@
 }
 
 .card-body {
-  background-color: #14213d;
+  background-color: #0049d1;
   border-radius: 25px;
   color: white;
+  font-weight: 400;
 }
 
 .card-footer {
@@ -54,7 +55,7 @@
 }
 
 .card-footer .project-icon:hover {
-  color: #fca311;
+  color: #000000;
 }
 
 .card-btn {

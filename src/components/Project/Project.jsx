@@ -1,7 +1,13 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './../../styles/Components/Project.css';
-import { GoMarkGithub, GoLinkExternal, GoArrowRight } from 'react-icons/go';
-import { Railsbnb, PyMaze, RubyCRUD } from '../../data/Homepage/projectsData';
+import { GoMarkGithub, GoLinkExternal } from 'react-icons/go';
+import {
+  Railsbnb,
+  PyMaze,
+  RubyCRUD,
+  nitii,
+  AlgorithmVisualizer,
+} from '../../data/Homepage/projectsData';
 
 export const Project = () => {
   // Desconstructing Object here is useless since data are available locally.
@@ -9,14 +15,49 @@ export const Project = () => {
     <Container fluid className='project'>
       <Row>
         <Col className='d-flex my-5 '>
-          <h2 className='projects-title'>Some of my latest work:</h2>
+          <h2 className='projects-title'>_projects</h2>
         </Col>
       </Row>
 
       <Container>
         <Row>
           <Col md={4} className='card-col'>
-            <Card className=' card h-60'>
+            <Card className='card h-100'>
+              <Card.Body>
+                <Card.Title className='card-title'>
+                  {AlgorithmVisualizer.CardTitle}
+                </Card.Title>
+                <Card.Text className='card-description'>
+                  {AlgorithmVisualizer.CardDescription}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={AlgorithmVisualizer.CardGithubLink} target='_blank'>
+                  <GoMarkGithub className='project-icon' />
+                </a>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col md={4} className='card-col'>
+            <Card className='card h-100'>
+              <Card.Body>
+                <Card.Title className='card-title'>
+                  {nitii.CardTitle}
+                </Card.Title>
+                <Card.Text className='card-description'>
+                  {nitii.CardDescription}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={nitii.CardGithubLink} target='_blank'>
+                  <GoMarkGithub className='project-icon' />
+                </a>
+              </Card.Footer>
+            </Card>
+          </Col>
+
+          <Col md={4} className='card-col'>
+            <Card className=' card h-100'>
               <Card.Body>
                 <Card.Title className='card-title'>
                   {Railsbnb.CardTitle}
