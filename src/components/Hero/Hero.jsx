@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import ThreeJs from '../../Animated/Threejs';
 import './../../styles/Components/Hero.scss';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -17,9 +18,11 @@ const Hero = () => {
               </h1>
               <div className='btn-wrapper'>
                 <Button className='button'>
-                  <a href='/about' className='btn-link'>
-                    Let's imagine together
-                  </a>
+                  <Link to='about'>
+                    <a href='/about' className='btn-link'>
+                      Let's imagine together
+                    </a>
+                  </Link>
                 </Button>
               </div>
             </div>
