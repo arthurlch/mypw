@@ -2,6 +2,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import ThreeJs from '../../Animated/Threejs';
 import './../../styles/Components/Hero.scss';
 import { Link } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 
 const Hero = () => {
   return (
@@ -18,11 +19,11 @@ const Hero = () => {
               </h1>
               <div className='btn-wrapper'>
                 <Button className='button'>
-                  <Link to='about'>
-                    <a href='/about' className='btn-link'>
+                  <Nav.Link as='li'>
+                    <Link className='btn-link' to='/about'>
                       Let's imagine together
-                    </a>
-                  </Link>
+                    </Link>
+                  </Nav.Link>
                 </Button>
               </div>
             </div>
