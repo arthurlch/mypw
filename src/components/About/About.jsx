@@ -1,7 +1,9 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import '../../styles/Components/About.css';
+import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const About = () => {
   return (
@@ -150,9 +152,11 @@ export const About = () => {
                 />
               </div>
               <div className='about-request-wrapper'>
-                <a className='about-request' href='contact'>
-                  Request data
-                </a>
+                <Nav.Link as='li'>
+                  <Link className='about-request' to='/contact'>
+                    Request data
+                  </Link>
+                </Nav.Link>
               </div>
             </div>
           </Col>
