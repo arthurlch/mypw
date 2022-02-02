@@ -33,7 +33,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(2500)
+                      .pauseFor(500)
                       .typeString(
                         "My name is Arthur, I'm an Engineer/Philomath/Developer."
                       )
@@ -50,7 +50,7 @@ export const About = () => {
                     delay: 40,
                   }}
                   onInit={(typewriter) => {
-                    typewriter.pauseFor(1000).typeString('What I do?').start();
+                    typewriter.pauseFor(500).typeString('What I do?').start();
                   }}
                 />
                 <Typewriter
@@ -62,7 +62,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(3500)
+                      .pauseFor(500)
                       .typeString(
                         'I do Web Development and Ethical Hacking. My stack: JS/TS, Ruby, Python, Go, Rails, React, Bash, C/C++.'
                       )
@@ -79,10 +79,7 @@ export const About = () => {
                     delay: 40,
                   }}
                   onInit={(typewriter) => {
-                    typewriter
-                      .pauseFor(2000)
-                      .typeString('What I like?')
-                      .start();
+                    typewriter.pauseFor(500).typeString('What I like?').start();
                   }}
                 />
                 <Typewriter
@@ -94,7 +91,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(4500)
+                      .pauseFor(500)
                       .typeString(
                         'I like Technology, Ethical Hacking, Healthy Food, Books, Stargate, Sushi.'
                       )
@@ -112,7 +109,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(2500)
+                      .pauseFor(500)
                       .typeString('Little more about me?')
                       .start();
                   }}
@@ -126,7 +123,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(6000)
+                      .pauseFor(500)
                       .typeString(
                         'I am a very temperate person. I value: Knowledge, Critical Thinking, Curiosity.'
                       )
@@ -143,7 +140,7 @@ export const About = () => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(10000)
+                      .pauseFor(500)
                       .typeString(
                         'Access Denied: For more data, send a request'
                       )
