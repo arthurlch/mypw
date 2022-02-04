@@ -4,10 +4,13 @@ import Typewriter from 'typewriter-effect';
 import '../../styles/Components/About.css';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import { motion } from 'framer-motion';
 export const About = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0.9 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}>
       <Container fluid className='about-container'>
         <Row className='about-row'>
           <Col md={6} className='about-col'>
@@ -159,6 +162,6 @@ export const About = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </motion.div>
   );
 };

@@ -3,10 +3,11 @@ import ThreeJs from '../../Animated/Threejs';
 import './../../styles/Components/Hero.scss';
 import { Link } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className='hero-wrapper'>
+    <motion.div className='hero-wrapper'>
       <div className='header-animation'>
         <ThreeJs />
       </div>
@@ -30,7 +31,7 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 };
 
