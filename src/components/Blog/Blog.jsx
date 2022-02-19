@@ -9,7 +9,7 @@ export const Blog = () => {
   const [visible, setVisible] = useState(3);
   // fetch dev.to API
   useEffect(() => {
-    fetch('https://dev.to/api/articles?username=arthurdav')
+    fetch('https://dev.to/api/articles?username=arthurlch')
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);

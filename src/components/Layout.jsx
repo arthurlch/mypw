@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../styles/Layout.css';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { SiVercel, SiReact } from 'react-icons/si';
 
@@ -8,11 +8,16 @@ import { SiVercel, SiReact } from 'react-icons/si';
 const Layout = ({ children }) => {
   return (
     <>
-      <Navbar className='navbar' bg='dark' variant='dark' expand='lg'>
+      <Navbar
+        collapseOnSelect
+        className='navbar'
+        bg='dark'
+        variant='dark'
+        expand='lg'>
         <Container>
           <Navbar.Brand href='/'>A.L</Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+          <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link as='li'>
                 <Link to='/'>HOME</Link>
