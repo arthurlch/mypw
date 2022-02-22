@@ -22,9 +22,9 @@
 }
 
 .card {
-  background-color: #0049d1;
+  background-color: #000000;
   border-radius: 25px;
-  border: solid 2px #0049d1;
+  border: solid 2px #000000;
   font-weight: 300;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .card-body {
-  background-color: #0049d1;
+  background-color: #000000;
   border-radius: 25px;
   color: white;
   font-weight: 400;
@@ -41,7 +41,7 @@
 
 .card-footer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 .card-footer a {
   color: #e5e5e5;
